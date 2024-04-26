@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Include navigation bar -->
-    <%@ include file="navbar.jsp" %>
+    <%@ include file="WEB-INF/jsp/navbar.jsp" %>
 
     <!-- Main content goes here -->
     <main>
