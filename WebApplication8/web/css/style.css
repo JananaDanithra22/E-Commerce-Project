@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Style for navigation links */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: black !important;
+}
+
+/* Style for login/signup button */
+.login-btn {
+    color: #000;
+    border-radius: 29.5px;
+}
+
+/* Style for navbar background color */
+.navbar {
+    background-color: #79FF6D;
+}
+
+/* Center the navbar brand */
+.navbar-brand {
+    margin-right: 0;
+}
+
+/* Style for navbar toggler icon color */
+.custom-toggler .navbar-toggler-icon {
+    color: black;
+}
+
+
+/* Adjust the image resolution */
+.custom-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Adjust the container for the image */
+.custom-image-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 1.5; /* Adjust line height for better spacing */
+    font-family: 'Roboto', sans-serif; /* Change font family to Roboto */
+}
+
+.text-overlay h2 {
+    font-size: 48px; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+    font-family: 'Roboto', sans-serif; /* Change font family to Roboto */
+}
+
+/* Button */
+.btn-light {
+    background-color: #fff;
+    color: #000;
+    border-radius: 29.5px;
+    padding: 10px 20px;
+    font-size: 24px; /* Increased font size */
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; /* Change font family to Roboto */
+    font-weight: bold !important; /* Make the font bold */
+}
+
+.btn-light:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Media queries for mobile view */
+@media (max-width: 768px) {
+    .text-overlay {
+        top: 70%; /* Adjust the top position for mobile view */
+        left: 0; /* Align text and button to the left side */
+        transform: translate(0, -50%); /* Reset horizontal centering */
+        text-align: left; /* Align text to the left */
+        padding-left: 20px; /* Add padding to the left for better spacing */
+    }
+
+    .text-overlay h2 {
+        font-size: 28px; /* Decrease font size for mobile view */
+        margin-bottom: 5px; /* Adjust margin for better spacing */
+    }
+
+    .btn-light {
+        font-size: 16px; /* Decrease font size for mobile view */
+        margin-top: 10px; /* Adjust margin for better spacing */
+        margin-left: 20px; /* Add margin to the left for better spacing */
+    }
+}
+
+/* Additional CSS styles for small image */
+.small-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 768px) {
+    .small-image {
+        width: 100%; /* Ensure the image occupies the full width of the container */
+    }
+}
+/* Additional CSS styles for the paragraph */
+.small-paragraph {
+    font-size: 25px; /* Adjust the font size as needed */
+}
