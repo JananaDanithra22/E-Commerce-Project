@@ -10,6 +10,8 @@
 .login-btn {
     color: #000;
     border-radius: 29.5px;
+    padding: 5px 5px; /* Adjust padding to reduce button size */
+    font-size: 14px; /* Optionally, adjust font size */
 }
 
 /* Style for navbar background color */

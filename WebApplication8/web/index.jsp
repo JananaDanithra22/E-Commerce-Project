@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Include the navbar -->
-    <%@ include file="WEB-INF/jsp/navbar.jsp" %>
+    <%@ include file="WEB-INF/components/navbar.jsp" %>
 
     <!-- Image with text and button -->
     <div class="custom-image-container position-relative">
