@@ -1,9 +1,3 @@
-<%-- 
-    Document   : storepage
-    Created on : Apr 28, 2024, 3:02:54 PM
-    Author     : MyPlusComputers
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +17,7 @@
     <title>Store</title>
   </head>
   <body>
-      <%@ include file="../WEB-INF/components/navbar.jsp" %>
+      <%@ include file="../../WEB-INF/components/navbar.jsp" %>
     <div class="container-md">
       <h1 class="text-center h2 fw-bold mt-5">Product Store</h1>
       <div class="row mt-5">
@@ -32,7 +26,7 @@
           class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center"
         >
           <div class="card shadow" style="width: 18rem">
-            <img src="./carrot.jpg" class="card-img-top" alt="..." />
+            <img src="../images/crts.jpg" class="card-img-top" alt="..." />
             <div class="card-body text-center">
               <h5 class="card-title fw-bold text-center h3">Carrot</h5>
               <p class="card-text text-center"><small>(100g)</small></p>
@@ -56,7 +50,7 @@
           class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center"
         >
           <div class="card shadow" style="width: 18rem">
-            <img src="./carrot.jpg" class="card-img-top" alt="..." />
+            <img src="../images/crts.jpg" class="card-img-top" alt="..." />
             <div class="card-body text-center">
               <h5 class="card-title fw-bold text-center h3">Carrot</h5>
               <p class="card-text text-center"><small>(100g)</small></p>
@@ -79,7 +73,7 @@
           class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center"
         >
           <div class="card shadow" style="width: 18rem">
-            <img src="./carrot.jpg" class="card-img-top" alt="..." />
+            <img src="../images/crts.jpg" class="card-img-top" alt="..." />
             <div class="card-body text-center">
               <h5 class="card-title fw-bold text-center h3">Carrot</h5>
               <p class="card-text text-center"><small>(100g)</small></p>
@@ -102,7 +96,7 @@
           class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center"
         >
           <div class="card shadow" style="width: 18rem">
-            <img src="./carrot.jpg" class="card-img-top" alt="..." />
+            <img src="../images/crts.jpg" class="card-img-top" alt="..." />
             <div class="card-body text-center">
               <h5 class="card-title fw-bold text-center h3">Carrot</h5>
               <p class="card-text text-center"><small>(100g)</small></p>
