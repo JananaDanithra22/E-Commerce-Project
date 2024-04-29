@@ -14,7 +14,7 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="pages/storepage.jsp">Products</a> <!-- Link to storepage.jsp -->
                 </li>
                 <li class="nav-item mx-2">
                     <a class="nav-link" href="#">About Us</a>

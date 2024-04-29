@@ -34,7 +34,7 @@
                 <!-- Start Card -->
                 <div class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem; height: 25rem">
-                        <img src="../images/1carrot.jpg" class="card-img-top fit-image" alt="Carrot Image" />
+                        <img src="../images/Carrots.jpg" class="card-img-top fit-image" alt="Carrot Image" />
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold text-center h3">Carrot</h5>
                             <p class="card-text text-center"><small>(100g)</small></p>
@@ -55,7 +55,7 @@
                 <!-- end Card -->
                 <div class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem; height: 25rem">
-                        <img src="../images/1carrot.jpg" class="card-img-top fit-image" alt="Carrot Image" />
+                        <img src="../images/Carrots.jpg" class="card-img-top fit-image" alt="Carrot Image" />
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold text-center h3">Carrot</h5>
                             <p class="card-text text-center"><small>(100g)</small></p>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem; height: 25rem">
-                        <img src="../images/1carrot.jpg" class="card-img-top fit-image" alt="Carrot Image" />
+                        <img src="../images/Carrots.jpg" class="card-img-top fit-image" alt="Carrot Image" />
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold text-center h3">Carrot</h5>
                             <p class="card-text text-center"><small>(100g)</small></p>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 p-2 d-flex justify-content-center">
                     <div class="card shadow" style="width: 20rem; height: 25rem">
-                        <img src="../images/1carrot.jpg" class="card-img-top fit-image" alt="Carrot Image" />
+                        <img src="../images/Carrots.jpg" class="card-img-top fit-image" alt="Carrot Image" />
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold text-center h3">Carrot</h5>
                             <p class="card-text text-center"><small>(100g)</small></p>
