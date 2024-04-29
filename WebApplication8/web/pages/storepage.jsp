@@ -17,7 +17,7 @@
     <title>Store</title>
   </head>
   <body>
-      <%@ include file="../../WEB-INF/components/navbar.jsp" %>
+      <%@ include file="../../components/navbar.jsp" %>
     <div class="container-md">
       <h1 class="text-center h2 fw-bold mt-5">Product Store</h1>
       <div class="row mt-5">
