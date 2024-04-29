@@ -3,66 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Link to your external CSS file -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS or other stylesheets can be included here -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Include the navbar -->
-    <%@ include file="./components/navbar.jsp" %>
-  
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Column for the navbar -->
-            <div class="col-md-12">
-                <!-- Content of the navbar goes here -->
-            </div>
-        </div>
-    </div>
 
-    <!-- Image fit to left and right side -->
-    <div class="container-fluid position-relative">
-        <div class="row">
-            <!-- Column for the image -->
-            <div class="col-md-12 p-0">
-                <img src="./images/Home_rec1.png" alt="Image" class="img-fluid w-100">
-                <!-- Text overlay -->
-                <div class="text-overlay position-absolute top-50 start-50 translate-middle text-center">
-                    <h2 class="text-white">Try Natural</h2>
-                    <h2 class="text-white">Foods For</h2>
-                    <h2 class="text-white">a Healthy Life</h2>
-                    <!-- Buy Now button -->
-                    <a href="#" class="btn btn-light rounded-pill mt-3">Buy Now</a>
-                </div>
-            </div>
+<%@ include file="../components/navbar.jsp" %>
+    <!-- Image with text and button -->
+    <div class="custom-image-container position-relative">
+        <img src="images/Home_rec1.png" alt="Your Image" class="custom-image">
+        <!-- Text -->
+        <div class="text-overlay">
+            <h2 class="text-white mb-4">Try Natural</h2>
+            <h2 class="text-white mb-4">Foods for</h2>
+            <h2 class="text-white mb-4">a Healthy</h2>
+            <h2 class="text-white mb-4">Life</h2>
+            <!-- Button -->
+            <a href="#" class="btn btn-light rounded-pill">Buy Now</a>
         </div>
-    </div>
-
-    <!-- Paragraph text aligned to the left -->
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <div class="col-md-6">
-                <p class="fs-5">Welcome to our organic fruit and vegetable shop, where freshness
-meets sustainability! We offer a vibrant array of locally sourced,
+        <!-- Small image -->
+        <img src="images/Home_rec2.png" alt="Small Image" class="small-image">
+        <p class="small-paragraph">Welcome to our organic fruit and vegetable shop, where freshness meets sustainability! We offer a vibrant array of locally sourced,
 pesticide-free produce, handpicked to ensure the highest quality
 and flavor. From juicy heirloom tomatoes to crisp apples bursting
 with nutrients, every item in our store is thoughtfully curated to
 support your well-being and the planet. Visit us to experience the
-natural goodness of organic farming at its finest!</p>
-            </div>
-        </div>
+natural goodness of organic farming at its finest!"</p>
     </div>
 
-    <!-- Image on the right side -->
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <div class="col-md-2"></div> <!-- Empty column to offset the other image -->
-            <div class="col-md-2">
-                <img src="./images/Home_rec2.png" alt="Image" class="img-fluid w-100">
-            </div>
-        </div>
-    </div>
+    <!-- Main content and other HTML elements go here -->
 
-    <!-- Bootstrap JS and other scripts -->
+    <!-- Bootstrap JS or other scripts can be included here -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
