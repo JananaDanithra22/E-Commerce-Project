@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<%@ include file="../components/navbar.jsp" %>
+<%@ include file="../../components/navbar.jsp" %>
     <!-- Image with text and button -->
     <div class="custom-image-container position-relative">
         <img src="images/Home_rec1.png" alt="Your Image" class="custom-image">
