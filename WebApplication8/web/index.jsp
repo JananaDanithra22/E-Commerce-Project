@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Link to your external CSS file -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Bootstrap CSS or other stylesheets can be included here -->
@@ -10,11 +11,13 @@
 </head>
 <body>
     <!-- Include the navbar -->
-    <%@ include file="WEB-INF/components/navbar.jsp" %>
+    <div class="w-100">
+        <%@ include file="./components/navbar.jsp" %>
+    </div>
 
     <!-- Image with text and button -->
     <div class="custom-image-container position-relative">
-        <img src="images/Home_rec1.png" alt="Your Image" class="custom-image">
+        <img src="images/Home_rec1.png" alt="Your Image" class="custom-image image-fill">
         <!-- Text -->
         <div class="text-overlay">
             <h2 class="text-white mb-4">Try Natural</h2>
