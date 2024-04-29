@@ -9,9 +9,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Include the navbar -->
-    <%@ include file="../components/navbar.jsp" %>
 
+<%@ include file="../components/navbar.jsp" %>
     <!-- Image with text and button -->
     <div class="custom-image-container position-relative">
         <img src="images/Home_rec1.png" alt="Your Image" class="custom-image">
