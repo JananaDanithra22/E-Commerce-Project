@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #79FF6D;">
     <div class="container">
         <a class="navbar-brand mr-auto" href="#">
-            <img src="../../images/natura_web.png" alt="Organic Ecommerce Logo" height="50">
+            <img src="../images/natura_web.png" alt="Organic Ecommerce Logo" height="50">
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
