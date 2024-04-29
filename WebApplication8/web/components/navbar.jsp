@@ -31,6 +31,9 @@
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="/pages/aboutus.jsp">About Us</a>
                     </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="/pages/scart.jsp">Shopping Cart</a>
+                    </li>
                 </ul>
             </div>
 
