@@ -10,7 +10,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #79FF6D;">
         <div class="container-fluid justify-content-between">
             <!-- Navbar brand -->
-            <a class="navbar-brand me-auto" href="/">
+            <a class="navbar-brand me-auto" href="/index.jsp">
                 <img src="../images/natura_web.png" alt="Organic Ecommerce Logo" height="50">
             </a>
 
