@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Include the navbar -->
-    <%@ include file="../components/navbar.jsp" %>
+    <%@ include file="./components/navbar.jsp" %>
   
     <div class="container-fluid">
         <div class="row">
