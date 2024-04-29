@@ -3,21 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Link to your external CSS file -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS or other stylesheets can be included here -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Include the navbar -->
-    <%@ include file="./components/navbar.jsp" %>
-  
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Column for the navbar -->
-            <div class="col-md-12">
-                <!-- Content of the navbar goes here -->
-            </div>
-        </div>
-    </div>
 
     <!-- Image fit to left and right side -->
     <div class="container-fluid position-relative">
