@@ -25,3 +25,22 @@
             <div class="mb-3">
                 <label for="productTitle" class="form-label">Product Title</label>
                 <input type="text" class="form-control" name="title" id="productTitle"
+        placeholder="Enter product title">
+            </div>
+            <div class="mb-3">
+                <label for="productDescription" class="form-label">Description</label>
+                <textarea class="form-control" name="description" id="productDescription" rows="3" placeholder="Enter product description"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="productPrice" class="form-label">Price</label>
+                <input type="number" class="form-control" name="price" id="productPrice" placeholder="Enter product price">
+            </div>
+            <div class="mb-3">
+                <label for="productQuantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" name="qty" id="productQuantity" placeholder="Enter product quantity">
+            </div>
+            <div class="mb-3">
+                <label for="productImage" class="form-label">Product Image</label>
+                <input class="form-control" name="image" type="file" id="productImage">
+            </div>
+            
