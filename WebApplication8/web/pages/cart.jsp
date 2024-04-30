@@ -37,7 +37,7 @@
                             <div class="col">
                                 <h5 class="mb-0">Product Title</h5>
                                 <p class="mb-1">Product description goes here.</p>
-                                <p class="mb-1">Weight: 250g</p>
+                                <p class="mb-1">Weight: 200g</p>
                                 <p class="mb-0">Price: $10.00</p>
                             </div>
                             <div class="col-auto">
@@ -105,7 +105,7 @@
             <div class="row mt-4">
                 <div class="col-md-8">
                     <!-- Total -->
-                    <h5>Total: $100.00</h5>
+                    <h5>Total: $47.00</h5>
                 </div>
                 <div class="col-md-4">
                     <!-- Checkout button -->
