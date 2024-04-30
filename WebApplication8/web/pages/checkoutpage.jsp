@@ -63,7 +63,8 @@
             <div class="col-md-4">
                 <div class="order-summary">
                     <h3>Order Summary</h3>
-               <div style="max-height: 200px; overflow-y: auto;">
+               <!-- List of items and prices with scrollable option -->
+<div style="max-height: 200px; overflow-y: auto;">
     <ul class="list-group">
         <li class="list-group-item d-flex justify-content-between align-items-center">
             Product 1
@@ -88,6 +89,23 @@
                     <div class="full-amount mt-3">
                         <h6>Full Amount (Including Shipping Fee): $35</h6>
                     </div>
+                        <!-- Scroll down button -->
+<button id="scrollDownBtn" class="btn btn-primary rounded-pill"><i class="bi bi-arrow-down"></i></button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Show scroll down button when the cart items overflow
+    const cartItemsDiv = document.getElementById("cartItems");
+    if (cartItemsDiv.scrollHeight > cartItemsDiv.clientHeight) {
+        document.getElementById("scrollDownBtn").style.display = "block";
+    }
+
+    // Scroll down when the button is clicked
+    document.getElementById("scrollDownBtn").onclick = function() {
+        cartItemsDiv.scrollTop += 50; // Change the scroll speed as needed
+    }
+</script>
                     <!-- Agree to Terms and Conditions -->
                     <!-- Payment Method -->
 <div class="payment-method mt-3">
@@ -98,6 +116,7 @@
             Cash on Delivery
         </label>
     </div>
+</div>
 </div>
 
                     <div class="form-group form-check mt-3">
@@ -131,5 +150,6 @@
             }
         }
     </script>
+
 </body>
 </html>
