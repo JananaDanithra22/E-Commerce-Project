@@ -82,7 +82,7 @@ footer p.copyright {
             </div>
         </div>
         <hr class="mt-4 mb-3">
-        <p class="text-center text-md-start">&copy; 2024 YourWebsiteName. All rights reserved.</p>
+        <p class="text-center text-md-start">&copy; 2024 Natura. All rights reserved.</p>
     </div>
 </footer>
 
