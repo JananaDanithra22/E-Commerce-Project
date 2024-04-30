@@ -62,34 +62,23 @@
             <!-- Order Summary Column -->
             <div class="col-md-4">
                 <div class="order-summary">
-                    <h3>Order Summary</h3>
+                    <h3>Shopping Bill</h3>
                <!-- List of items and prices with scrollable option -->
 <div style="max-height: 200px; overflow-y: auto;">
-    <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-            Product 1
-            <span class="badge badge-primary badge-pill">$10</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-            Product 2
-            <span class="badge badge-primary badge-pill">$20</span>
-        </li>
-        <!-- Add more items as needed -->
-    </ul>
+
 </div>
                     <!-- Total -->
-                    <div class="total mt-3">
-                        <h6>Total: $30</h6>
-                    </div>
-                    <!-- Shipping Fee -->
-                    <div class="shipping-fee mt-3">
-                        <h6>Shipping Fee: $5</h6>
-                    </div>
-                    <!-- Full Amount (Total + Shipping Fee) -->
-                    <div class="full-amount mt-3">
-                        <h6>Full Amount (Including Shipping Fee): $35</h6>
-                    </div>
-
+<div class="total mt-3">
+    <h6><div class="float-left">Total:</div> <div class="float-right">$30</div></h6>
+</div>
+<!-- Shipping Fee -->
+<div class="shipping-fee mt-3">
+    <h6><div class="float-left">Shipping Fee:</div> <div class="float-right">$5</div></h6>
+</div>
+<!-- Full Amount (Total + Shipping Fee) -->
+<div class="full-amount mt-3">
+    <h6><div class="float-left">Full Amount (Including Shipping Fee):</div> <div class="float-right">$35</div></h6>
+</div>
 <div class="payment-method mt-3">
     <h6>Payment Method</h6>
     <div class="form-check">
