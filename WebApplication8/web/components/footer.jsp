@@ -11,15 +11,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <style>
-            /* Footer styles */
+          /* Footer styles */
 footer {
-    background-color: #79ff6d; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #80fc6c; /* Dark background color */
+    color: #21130d; /* White text color */
     padding: 30px 0; /* Padding top and bottom */
 }
 
 footer h5 {
-    color: #fff; /* White heading color */
+    color: #21130d; /* White heading color */
 }
 
 footer p {
@@ -49,13 +49,10 @@ footer hr {
     border-top-color: #6c757d; /* Border color */
 }
 
-footer p.copyright {
+footer p.text-center {
     margin-top: 20px; /* Top margin for copyright text */
 }
 
-.footer-logo {
-    max-width: 100px; /* Set maximum width for the logo */
-}
         </style>
     </head>
     <body>
@@ -63,13 +60,13 @@ footer p.copyright {
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-2">
-                <img src="natura_web.png" alt="Website Logo" class="img-fluid">
+                <img src="your-logo.png" alt="Website Logo" class="img-fluid">
             </div>
             <div class="col-md-5">
                 <h5 class="text-md-start">Contact Us</h5>
-                <p>Email: Natura@gmail.com</p>
-                <p>Phone: +94 76 8956321</p>
-                <p>Address: 183 York Street, Colombo, Sri lanka</p>
+                <p>Email: info@example.com</p>
+                <p>Phone: +1 123 456 7890</p>
+                <p>Address: 123 Street, City, Country</p>
             </div>
             <div class="col-md-5">
                 <h5>Follow Us</h5>
@@ -82,9 +79,10 @@ footer p.copyright {
             </div>
         </div>
         <hr class="mt-4 mb-3">
-        <p class="text-center text-md-start">&copy; 2024 Natura. All rights reserved.</p>
+        <p class="text-center text-md-start">&copy; 2024 YourWebsiteName. All rights reserved.</p>
     </div>
 </footer>
+
 
 
     </body>
