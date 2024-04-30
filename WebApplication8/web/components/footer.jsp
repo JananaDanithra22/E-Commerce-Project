@@ -63,7 +63,7 @@ footer p.copyright {
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-2">
-                <img src="your-logo.png" alt="Website Logo" class="img-fluid">
+                <img src="natura_web.png" alt="Website Logo" class="img-fluid">
             </div>
             <div class="col-md-5">
                 <h5 class="text-md-start">Contact Us</h5>
