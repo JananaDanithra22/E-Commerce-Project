@@ -53,8 +53,11 @@
                                     </div>
                                       <div class="form-group">
                                 </div>
-                <label for="additionalInstructions">Additional Instructions</label>
-                <div class="form-control " id="additionalInstructions"  placeholder="Additional details..."></div>
+<div class="form-group">
+    <label for="additionalInstructions">Additional Instructions</label>
+    <textarea class="form-control" id="additionalInstructions" rows="5" cols="94" placeholder="Enter any additional instructions here..."></textarea>
+</div>
+
             </div>
                                 
                                 <!-- Add more address fields as needed -->
