@@ -59,32 +59,7 @@ footer p.copyright {
         </style>
     </head>
     <body>
-        <footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-2">
-                <img src="your-logo.png" alt="Website Logo" class="footer-logo">
-            </div>
-            <div class="col-md-4 text-md-start">
-                <h5>Contact Us</h5>
-                <p>Email: info@example.com</p>
-                <p>Phone: +1 123 456 7890</p>
-                <p>Address: 123 Street, City, Country</p>
-            </div>
-            <div class="col-md-4">
-                <h5>Follow Us</h5>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <hr class="mt-4 mb-3">
-        <p class="copyright">&copy; 2024 YourWebsiteName. All rights reserved.</p>
-    </div>
-</footer>
+       
 
     </body>
 </html>
