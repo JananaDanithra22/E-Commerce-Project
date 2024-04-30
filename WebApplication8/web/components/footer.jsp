@@ -13,7 +13,7 @@
         <style>
             /* Footer styles */
 footer {
-    background-color: #343a40; /* Dark background color */
+    background-color: #79ff6d; /* Dark background color */
     color: #fff; /* White text color */
     padding: 30px 0; /* Padding top and bottom */
 }
