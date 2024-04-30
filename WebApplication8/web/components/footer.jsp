@@ -11,7 +11,7 @@
 <!-- Remove the container if you want to extend the Footer to full width. -->
 <div class="container my-5">
 
-    <footer class="text-center text-lg-start" style="background-color: green;">
+    <footer class="text-center text-lg-start" style="background-color: #90EE90;">
         <div class="container d-flex justify-content-center py-5">
             <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
                 <i class="fab fa-facebook-f"></i>
