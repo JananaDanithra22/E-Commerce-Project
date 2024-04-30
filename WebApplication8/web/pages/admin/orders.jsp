@@ -1,8 +1,4 @@
-<%-- 
-    Document   : orders
-    Created on : Apr 29, 2024, 8:13:03 PM
-    Author     : Devin
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

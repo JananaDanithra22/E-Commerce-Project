@@ -51,7 +51,15 @@
                                         <label for="address">Address</label>
                                         <input type="text" class="form-control" id="address" placeholder="Address">
                                     </div>
+                                      <div class="form-group">
                                 </div>
+<div class="form-group">
+    <label for="additionalInstructions">Additional Instructions</label>
+    <textarea class="form-control" id="additionalInstructions" rows="5" cols="94" placeholder="Enter any additional instructions here..."></textarea>
+</div>
+
+            </div>
+                                
                                 <!-- Add more address fields as needed -->
                             </form>
                         </div>
@@ -61,24 +69,25 @@
 
             <!-- Order Summary Column -->
             <div class="col-md-4">
-                <div class="order-summary">
+                <div class="shoppingbill">
                     <h3>Shopping Bill</h3>
-               <!-- List of items and prices with scrollable option -->
+              
 <div style="max-height: 200px; overflow-y: auto;">
 
 </div>
                     
 <!-- Total -->
-<div class="total mt-3">
-    <h6>Total: <span class="ml-auto">$30</span></h6>
+
+<div class="total d-flex justify-content-between mt-3">
+    <h6>Total:</h6> <h6><span class="ml-auto"class="text-right align-items-center">$XX </span></h6>
 </div>
 <!-- Shipping Fee -->
-<div class="shipping-fee mt-3">
-    <h6>Shipping Fee: <span class="ml-auto">$5</span></h6>
+<div class="shipping-fee d-flex justify-content-between  mt-3">
+    <h6>Shipping Fee:</h6> <h6> <span class="ml-auto">$XX</span></h6>
 </div>
 <!-- Full Amount (Total + Shipping Fee) -->
-<div class="full-amount mt-3">
-    <h6>Full Amount (Including Shipping Fee): <span class="ml-auto">$35</span></h6>
+<div class="full-amount d-flex justify-content-between mt-3">
+    <h6>Full Amount:</h6> <h6><span class="ml-auto">$XX</span></h6>
 </div>
 
 <div class="payment-method mt-3">
@@ -96,8 +105,9 @@
                         <input type="checkbox" class="form-check-input" id="agreeTerms">
                         <label class="form-check-label" for="agreeTerms">I agree to the <a href="#">Terms and Conditions</a></label>
                     </div>
-                    <!-- Place order button -->
-                    <button type="button" class="btn btn-primary btn-block" onclick="validateTermsAndPlaceOrder()">Place Order</button>
+                   <!-- Place order button -->
+<button type="button" class="btn btn-success btn-block" onclick="validateTermsAndPlaceOrder()">Place Order</button>
+
                 </div>
             </div>
         </div>
@@ -116,6 +126,19 @@
             var agreeTermsCheckbox = document.getElementById("agreeTerms");
             if (!agreeTermsCheckbox.checked) {
                 alert("Please accept the Terms and Conditions to proceed.");
+            } else {
+                // Proceed with placing the order
+                // You can submit the form or perform any other action here
+                // For example: document.getElementById("checkoutForm").submit();
+            }
+        }
+    </script>
+    <script src="js/script.js"></script>
+     <script>
+        function validateTermsAndPlaceOrder() {
+            var cashOnDeliveryCheckbox = document.getElementById("cashondeliver");
+            if (cashOnDeliveryCheckbox.checked) {
+                alert("Please make sure your payment method.");
             } else {
                 // Proceed with placing the order
                 // You can submit the form or perform any other action here
