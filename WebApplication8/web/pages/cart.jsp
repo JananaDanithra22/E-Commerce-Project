@@ -71,7 +71,7 @@
                             <div class="col">
                                 <h5 class="mb-0">Product Title</h5>
                                 <p class="mb-1">Product description goes here.</p>
-                                <p class="mb-1">Weight: 350g</p>
+                                <p class="mb-1">Weight: 300g</p>
                                 <p class="mb-0">Price: $12.00</p>
                             </div>
                             <div class="col-auto">
@@ -87,7 +87,7 @@
                             <div class="col">
                                 <h5 class="mb-0">Product Title</h5>
                                 <p class="mb-1">Product description goes here.</p>
-                                <p class="mb-1">Weight: 350g</p>
+                                <p class="mb-1">Weight: 300g</p>
                                 <p class="mb-0">Price: $12.00</p>
                             </div>
                             <div class="col-auto">
