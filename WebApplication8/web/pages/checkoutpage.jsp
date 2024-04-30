@@ -67,18 +67,20 @@
 <div style="max-height: 200px; overflow-y: auto;">
 
 </div>
-                    <!-- Total -->
+                    
+<!-- Total -->
 <div class="total mt-3">
-    <h6><div class="float-left">Total:</div> <div class="float-right">$30</div></h6>
+    <h6>Total: <span class="ml-auto">$30</span></h6>
 </div>
 <!-- Shipping Fee -->
 <div class="shipping-fee mt-3">
-    <h6><div class="float-left">Shipping Fee:</div> <div class="float-right">$5</div></h6>
+    <h6>Shipping Fee: <span class="ml-auto">$5</span></h6>
 </div>
 <!-- Full Amount (Total + Shipping Fee) -->
 <div class="full-amount mt-3">
-    <h6><div class="float-left">Full Amount (Including Shipping Fee):</div> <div class="float-right">$35</div></h6>
+    <h6>Full Amount (Including Shipping Fee): <span class="ml-auto">$35</span></h6>
 </div>
+
 <div class="payment-method mt-3">
     <h6>Payment Method</h6>
     <div class="form-check">
