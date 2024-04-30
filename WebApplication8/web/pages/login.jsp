@@ -27,9 +27,11 @@
                         <input type="password" class="form-control" id="password" placeholder="Enter your password">
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-success btn-lg">Login</button>
+                        <button type="submit" class="btn btn-success btn-lg rounded-pill">Login</button>
                     </div>
                 </form>
+                <!-- Text "Not have an account? Sign Up Here" with a link to Signup page -->
+                <p class="text-center mt-3 mb-0">Not have an account? <a href="/pages/signup.jsp">Sign Up Here</a></p>
             </div>
         </div>
     </div>
