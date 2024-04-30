@@ -60,13 +60,13 @@ footer p.text-center {
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-2">
-                <img src="your-logo.png" alt="Website Logo" class="img-fluid">
+                <img src="natura_web.png" alt="Website Logo" class="img-fluid">
             </div>
             <div class="col-md-5">
                 <h5 class="text-md-start">Contact Us</h5>
-                <p>Email: info@example.com</p>
-                <p>Phone: +1 123 456 7890</p>
-                <p>Address: 123 Street, City, Country</p>
+                <p>Email: natura@gmail.com</p>
+                <p>Phone: +94 11 2526398</p>
+                <p>Address: 153 york Street, Colombo, Sri Lanka</p>
             </div>
             <div class="col-md-5">
                 <h5>Follow Us</h5>
@@ -79,7 +79,7 @@ footer p.text-center {
             </div>
         </div>
         <hr class="mt-4 mb-3">
-        <p class="text-center text-md-start">&copy; 2024 YourWebsiteName. All rights reserved.</p>
+        <p class="text-center text-md-start">&copy; 2024 Natura. All rights reserved.</p>
     </div>
 </footer>
 
