@@ -70,7 +70,7 @@
                     
 <!-- Total -->
 <div class="total mt-3">
-    <h6>Total: <span class="ml-auto">$30</span></h6>
+    <h6>Total: <span class="ml-auto"class="text-right align-items-center">$30 </span></h6>
 </div>
 <!-- Shipping Fee -->
 <div class="shipping-fee mt-3">
@@ -96,8 +96,9 @@
                         <input type="checkbox" class="form-check-input" id="agreeTerms">
                         <label class="form-check-label" for="agreeTerms">I agree to the <a href="#">Terms and Conditions</a></label>
                     </div>
-                    <!-- Place order button -->
-                    <button type="button" class="btn btn-primary btn-block" onclick="validateTermsAndPlaceOrder()">Place Order</button>
+                   <!-- Place order button -->
+<button type="button" class="btn btn-success btn-block" onclick="validateTermsAndPlaceOrder()">Place Order</button>
+
                 </div>
             </div>
         </div>
