@@ -1,8 +1,4 @@
-<%-- 
-    Document   : aboutus
-    Created on : Apr 29, 2024, 12:35:52 PM
-    Author     : sasin
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
