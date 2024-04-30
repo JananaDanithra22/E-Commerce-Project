@@ -67,9 +67,9 @@ footer p.copyright {
             </div>
             <div class="col-md-5">
                 <h5 class="text-md-start">Contact Us</h5>
-                <p>Email: info@example.com</p>
-                <p>Phone: +1 123 456 7890</p>
-                <p>Address: 123 Street, City, Country</p>
+                <p>Email: Natura@gmail.com</p>
+                <p>Phone: +94 76 8956321</p>
+                <p>Address: 183 York Street, Colombo, Sri lanka</p>
             </div>
             <div class="col-md-5">
                 <h5>Follow Us</h5>
