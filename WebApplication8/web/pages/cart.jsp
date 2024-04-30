@@ -79,6 +79,22 @@
                             </div>
                         </div>
                         <!-- End Cart item 3 -->
+                         <!-- Cart item 4-->
+                        <div class="row align-items-center mb-3">
+                            <div class="col-auto">
+                                <img src="/images/Tomatoes.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col">
+                                <h5 class="mb-0">Product Title</h5>
+                                <p class="mb-1">Product description goes here.</p>
+                                <p class="mb-1">Weight: 350g</p>
+                                <p class="mb-0">Price: $12.00</p>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-danger btn-sm">Remove</button>
+                            </div>
+                        </div>
+                          <!-- End Cart item 4 -->
                     </div>
                     <!-- End Cart items list -->
                 </div>
@@ -104,5 +120,22 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Scroll down button -->
+<button id="scrollDownBtn" class="btn btn-primary rounded-pill"><i class="bi bi-arrow-down"></i></button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Show scroll down button when the cart items overflow
+    const cartItemsDiv = document.getElementById("cartItems");
+    if (cartItemsDiv.scrollHeight > cartItemsDiv.clientHeight) {
+        document.getElementById("scrollDownBtn").style.display = "block";
+    }
+
+    // Scroll down when the button is clicked
+    document.getElementById("scrollDownBtn").onclick = function() {
+        cartItemsDiv.scrollTop += 50; // Change the scroll speed as needed
+    }
+</script>
 </body>
 </html>
