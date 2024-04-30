@@ -4,17 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <style>
-        /* Custom styles for navbar links */
-        .navbar-nav .nav-link {
-            color: black !important; /* Set font color to black */
-            font-size: 18px; /* Increase font size */
-        }
-    </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #79FF6D;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <div class="container-fluid justify-content-between">
             <!-- Navbar brand -->
             <a class="navbar-brand me-auto" href="/index.jsp">
@@ -30,23 +23,23 @@
             <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="/index.jsp">Home</a>
+                        <a class="nav-link text-white" href="/index.jsp">Home</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="/pages/storepage.jsp">Products</a>
+                        <a class="nav-link text-white" href="/pages/storepage.jsp">Products</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="/pages/aboutus.jsp">About Us</a>
+                        <a class="nav-link text-white" href="/pages/aboutus.jsp">About Us</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="/pages/cart.jsp">Shopping Cart</a>
+                        <a class="nav-link text-white" href="/pages/cart.jsp">Shopping Cart</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Login/signup button -->
-            <a class="btn btn-light btn-sm my-2 py-1 px-2 d-inline d-lg-none" href="/pages/login.jsp" style="color: #000;">Login/Sign Up</a>
-            <a class="btn btn-sm btn-light rounded-pill py-2 px-3 d-none d-lg-block" href="/pages/login.jsp" style="color: #000;">Login/Sign Up</a>
+            <a class="btn btn-dark btn-sm my-2 py-1 px-2 d-inline d-lg-none" href="/pages/login.jsp">Login/Sign Up</a>
+            <a class="btn btn-sm btn-dark rounded-pill py-2 px-3 d-none d-lg-block" href="/pages/login.jsp">Login/Sign Up</a>
         </div>
     </nav>
 
