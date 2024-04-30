@@ -43,4 +43,15 @@
                 <label for="productImage" class="form-label">Product Image</label>
                 <input class="form-control" name="image" type="file" id="productImage">
             </div>
-            
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- Cancel Button -->
+            <button type="button" onclick="history.back()" class="btn btn-secondary ms-2" onclick="window.location.reload();">Back</button>
+        </form>
+    </div>
+
+    <!-- Icons Support from Bootstrap Icons (for back arrow) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
