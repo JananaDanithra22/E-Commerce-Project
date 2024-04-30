@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <style>
+        /* Custom styles for navbar links */
+        .navbar-nav .nav-link {
+            color: black !important; /* Set font color to black */
+            font-size: 18px; /* Increase font size */
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -38,8 +45,8 @@
             </div>
 
             <!-- Login/signup button -->
-            <a class="btn btn-light btn-sm my-2 py-1 px-2 d-inline d-lg-none" href="#" style="color: #000;">Login/Sign Up</a>
-            <a class="btn btn-sm btn-light rounded-pill py-2 px-3 d-none d-lg-block" href="#" style="color: #000;">Login/Sign Up</a>
+            <a class="btn btn-light btn-sm my-2 py-1 px-2 d-inline d-lg-none" href="/pages/login.jsp" style="color: #000;">Login/Sign Up</a>
+            <a class="btn btn-sm btn-light rounded-pill py-2 px-3 d-none d-lg-block" href="/pages/login.jsp" style="color: #000;">Login/Sign Up</a>
         </div>
     </nav>
 
