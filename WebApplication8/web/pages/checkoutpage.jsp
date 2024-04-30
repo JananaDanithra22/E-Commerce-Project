@@ -69,16 +69,17 @@
 </div>
                     
 <!-- Total -->
-<div class="total mt-3">
-    <h6>Total: <span class="ml-auto"class="text-right align-items-center">$30 </span></h6>
+
+<div class="total d-flex justify-content-between mt-3">
+    <h6>Total:</h6> <h6><span class="ml-auto"class="text-right align-items-center">$30 </span></h6>
 </div>
 <!-- Shipping Fee -->
-<div class="shipping-fee mt-3">
-    <h6>Shipping Fee: <span class="ml-auto">$5</span></h6>
+<div class="shipping-fee d-flex justify-content-between  mt-3">
+    <h6>Shipping Fee:</h6> <h6> <span class="ml-auto">$5</span></h6>
 </div>
 <!-- Full Amount (Total + Shipping Fee) -->
-<div class="full-amount mt-3">
-    <h6>Full Amount (Including Shipping Fee): <span class="ml-auto">$35</span></h6>
+<div class="full-amount d-flex justify-content-between mt-3">
+    <h6>Full Amount:</h6> <h6><span class="ml-auto">$35</span></h6>
 </div>
 
 <div class="payment-method mt-3">
