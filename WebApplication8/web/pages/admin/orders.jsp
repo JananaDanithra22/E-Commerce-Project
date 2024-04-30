@@ -43,3 +43,32 @@
                     <th scope="col">Actions</th>
                 </tr>
             </thead>
+            <tbody>
+                <!-- Example Row 1 -->
+                <tr>
+                    <th scope="row">1</th>
+                    <td>001</td>
+                    <td>JohnDoe</td>
+                    <td>2023-01-01</td>
+                    <td><span class="badge bg-success">Completed</span></td>
+                    <td>
+                        <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#completeOrderModal">Complete</button>
+                        <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteOrderModal">Delete</button>
+                    </td>
+                </tr>
+                <!-- Example Row 2 -->
+                <tr>
+                    <th scope="row">2</th>
+                    <td>002</td>
+                    <td>JaneDoe</td>
+                    <td>2023-01-02</td>
+                    <td><span class="badge bg-warning">Pending</span></td>
+                    <td>
+                        <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#completeOrderModal">Complete</button>
+                        <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteOrderModal">Delete</button>
+                    </td>
+                </tr>
+                <!-- More rows can be added similarly -->
+            </tbody>
+        </table>
+    </div>
