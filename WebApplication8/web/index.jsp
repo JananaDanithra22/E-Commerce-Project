@@ -32,7 +32,7 @@
                     <h2 class="text-white">Foods For</h2>
                     <h2 class="text-white">a Healthy Life</h2>
                     <!-- Buy Now button -->
-                    <a href="#" class="btn btn-light rounded-pill mt-3">Buy Now</a>
+                    <a href="/pages/storepage.jsp" class="btn btn-light rounded-pill mt-3">Buy Now</a>
                 </div>
             </div>
         </div>
