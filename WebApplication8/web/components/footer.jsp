@@ -9,80 +9,39 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-        <style>
-          /* Footer styles */
-footer {
-    background-color: #80fc6c; /* Dark background color */
-    color: #21130d; /* White text color */
-    padding: 30px 0; /* Padding top and bottom */
-}
-
-footer h5 {
-    color: #21130d; /* White heading color */
-}
-
-footer p {
-    margin-bottom: 10px; /* Bottom margin for paragraphs */
-}
-
-footer ul.list-inline {
-    padding-left: 0; /* Remove default padding */
-    list-style: none; /* Remove default list styles */
-}
-
-footer ul.list-inline li {
-    display: inline-block; /* Display social media icons inline */
-    margin-right: 10px; /* Right margin between social media icons */
-}
-
-footer ul.list-inline li a {
-    color: #fff; /* White color for social media icons */
-    font-size: 24px; /* Font size of social media icons */
-}
-
-footer ul.list-inline li a:hover {
-    color: #f8f9fa; /* Hover color for social media icons */
-}
-
-footer hr {
-    border-top-color: #6c757d; /* Border color */
-}
-
-footer p.text-center {
-    margin-top: 20px; /* Top margin for copyright text */
-}
-
-        </style>
-    </head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <title>JSP Page</title></head>
     <body>
-       <footer class="bg-dark text-white py-4">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-2">
-                <img src="natura_web.png" alt="Website Logo" class="img-fluid">
-            </div>
-            <div class="col-md-5">
-                <h5 class="text-md-start">Contact Us</h5>
-                <p>Email: natura@gmail.com</p>
-                <p>Phone: +94 11 2526398</p>
-                <p>Address: 153 york Street, Colombo, Sri Lanka</p>
-            </div>
-            <div class="col-md-5">
-                <h5>Follow Us</h5>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <hr class="mt-4 mb-3">
-        <p class="text-center text-md-start">&copy; 2024 Natura. All rights reserved.</p>
-    </div>
-</footer>
+     <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
 
+  <footer class="text-center text-lg-start" style="background-color: #db6930;">
+    <div class="container d-flex justify-content-center py-5">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-youtube"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-instagram"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-twitter"></i>
+      </button>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+</div>
+<!-- End of .container -->
 
 
     </body>
