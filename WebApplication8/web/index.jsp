@@ -3,43 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Bootstrap CSS or other stylesheets can be included here -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Natura | Home</title>
 </head>
 <body>
-
-<%@ include file="../components/navbar.jsp" %>
-    <!-- Image with text and button -->
-    <div class="custom-image-container position-relative">
-        <img src="images/Home_rec1.png" alt="Your Image" class="custom-image">
-        <!-- Text -->
-        <div class="text-overlay">
-            <h2 class="text-white mb-4">Try Natural</h2>
-            <h2 class="text-white mb-4">Foods for</h2>
-            <h2 class="text-white mb-4">a Healthy</h2>
-            <h2 class="text-white mb-4">Life</h2>
-            <!-- Button -->
-            <a href="#" class="btn btn-light rounded-pill">Buy Now</a>
+    <!-- Include the navbar -->
+    <%@ include file="./components/navbar.jsp" %>
+  
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Column for the navbar -->
+            <div class="col-md-12">
+                <!-- Content of the navbar goes here -->
+            </div>
         </div>
-        <!-- Small image -->
-        <img src="images/Home_rec2.png" alt="Small Image" class="small-image">
-        <p class="small-paragraph">Welcome to our organic fruit and vegetable shop, where freshness meets sustainability! We offer a vibrant array of locally sourced,
-pesticide-free produce, handpicked to ensure the highest quality
-and flavor. From juicy heirloom tomatoes to crisp apples bursting
-with nutrients, every item in our store is thoughtfully curated to
-support your well-being and the planet. Visit us to experience the
-natural goodness of organic farming at its finest!"</p>
     </div>
 
-    <!-- Main content and other HTML elements go here -->
+    <!-- Image fit to left and right side -->
+    <div class="container-fluid position-relative">
+        <div class="row">
+            <!-- Column for the image -->
+            <div class="col-md-12 p-0">
+                <img src="./images/Home_rec1.png" alt="Image" class="img-fluid w-100">
+                <!-- Text overlay -->
+                <div class="text-overlay position-absolute top-50 start-50 translate-middle text-center">
+                    <h2 class="text-white">Try Natural</h2>
+                    <h2 class="text-white">Foods For</h2>
+                    <h2 class="text-white">a Healthy Life</h2>
+                    <!-- Buy Now button -->
+                    <a href="#" class="btn btn-light rounded-pill mt-3">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Bootstrap JS or other scripts can be included here -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Link to your JavaScript file -->
-    <script src="js/script.js"></script>
+    <script
+                src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                crossorigin="anonymous"
+            ></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+                crossorigin="anonymous"
+            ></script>
 </body>
 </html>
