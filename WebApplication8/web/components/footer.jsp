@@ -1,43 +1,53 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <title>JSP Page</title>
-</head>
-<body>
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5">
+<!-- footer -->
+<div class="">
 
-    <footer class="text-center text-lg-start" style="background-color: #90EE90;">
-        <div class="container d-flex justify-content-center py-5">
-            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                <i class="fab fa-facebook-f"></i>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                <i class="fab fa-youtube"></i>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                <i class="fab fa-instagram"></i>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-                <i class="fab fa-twitter"></i>
-            </button>
-        </div>
-
-        <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            Â© 2020 Copyright:
-            <a class="text-white" href="www.Natura.com">WWW.Natura.Com</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-
-</div>
-<!-- End of .container -->
-
-
-</body>
-</html>
+    <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <h2 class="mt-2 mb-4 text-center">Natura</h2>
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Copyright:
+      <a class="text-white" href="https://natura.com/">Natura.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+  </div>
+  <!-- End of .container -->

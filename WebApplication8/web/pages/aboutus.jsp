@@ -28,6 +28,7 @@
         
         <!-- Additional content can go here -->
     </div>
+    <%@ include file="../components/footer.jsp" %>
 
     <!-- Bootstrap JS and other scripts -->
     <script
