@@ -11,7 +11,7 @@ import models.User;
 
 /**
  *
- * @author Devin
+ * @author thishmika
  */
 public class clientSignupServlet extends HttpServlet {
 
@@ -49,4 +49,4 @@ public class clientSignupServlet extends HttpServlet {
             response.sendRedirect("signup.jsp?error=Unable to register"); // Redirect back to signup on error
         }
     }
-}
+} 
