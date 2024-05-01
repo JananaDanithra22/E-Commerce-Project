@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Devin
+ * @author thishmika
  */
 public class clientProductServlet extends HttpServlet {
 
