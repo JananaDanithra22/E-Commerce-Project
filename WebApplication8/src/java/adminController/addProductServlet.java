@@ -92,3 +92,26 @@ public class addProductServlet extends HttpServlet {
                         }
                     }
                 }
+
+                if (title != null && filePath != null) {
+                    Product product = new Product(title, description, price, quantity);
+                    ProductDAO productDAO = new ProductDAOImpl();
+                    productDAO.addProduct(product, filePath);
+                    System.out.println("Product and image added successfully.");
+                } else {
+                    System.out.println("Required fields are missing.");
+                }
+            } catch (Exception ex) {
+                System.err.println("Error in processing upload: " + ex.getMessage());
+                request.setAttribute("errorMessage", "Error in processing upload: " + ex.getMessage());
+                request.getRequestDispatcher("error.jsp").forward(request, response);
+                return;
+            }
+        } else {
+            request.setAttribute("message", "Request Content-Type is not multipart/form-data.");
+            request.getRequestDispatcher("error.jsp").forward(request, response);
+        }
+        response.sendRedirect("/pages/admin/products.jsp");
+    }
+
+}
