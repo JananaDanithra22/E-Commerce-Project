@@ -40,3 +40,55 @@ public class addProductServlet extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("/pages/admin/add_product.jsp");
         dispatcher.include(request, response);
     }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+
+        if (ServletFileUpload.isMultipartContent(request)) {
+            DiskFileItemFactory factory = new DiskFileItemFactory();
+            ServletFileUpload upload = new ServletFileUpload(factory);
+            String title = null, description = null, filePath = null;
+            double price = 0;
+            int quantity = 0;
+
+            try {
+                List<FileItem> formItems = upload.parseRequest(request);
+
+                for (FileItem item : formItems) {
+                    if (item.isFormField()) {
+                        String fieldName = item.getFieldName();
+                        String fieldValue = item.getString();
+
+                        switch (fieldName) {
+                            case "title":
+                                title = fieldValue;
+                                break;
+                            case "description":
+                                description = fieldValue;
+                                break;
+                            case "price":
+                                price = Double.parseDouble(fieldValue);
+                                break;
+                            case "qty":
+                                quantity = Integer.parseInt(fieldValue);
+                                break;
+                        }
+                    } else {
+                        String fieldName = item.getFieldName();
+                        String fileName = FilenameUtils.getName(item.getName());
+
+                        if ("file".equals(fieldName) && fileName != null && !fileName.isEmpty()) {
+                            String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+                            String modifiedFileName = timeStamp + "_" + fileName;
+                            File uploadDir = new File(uploadDirectory);
+                            if (!uploadDir.exists()) {
+                                uploadDir.mkdirs();
+                            }
+                            File storeFile = new File(uploadDir, modifiedFileName);
+                            item.write(storeFile);
+                            filePath = storeFile.getName();
+                            System.out.println("File uploaded successfully. File path: " + filePath);
+                        }
+                    }
+                }
