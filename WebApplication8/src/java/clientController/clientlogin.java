@@ -15,7 +15,7 @@ import models.User;
 
 /**
  *
- * @author Devin
+ * @author thishmika
  */
 public class clientLoginServlet extends HttpServlet {
 
