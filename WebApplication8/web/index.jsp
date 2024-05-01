@@ -117,7 +117,7 @@
             </div>
           </div>
 
-          <!-- Second slide with 4 new cards (repeat layout) -->
+      
           <div class="carousel-item">
             <div class="row d-flex justify-content-center">
               <div class="col-3">
@@ -163,7 +163,7 @@
             </div>
           </div>
         </div>
-        <!-- Carousel controls -->
+        
         <button
           class="carousel-control-prev mr-5"
           type="button"
@@ -252,7 +252,7 @@
             </div>
           </div>
 
-          <!-- Second slide with 4 new cards (repeat layout) -->
+          
           <div class="carousel-item">
             <div class="row d-flex justify-content-center">
               <div class="col-3">
@@ -298,7 +298,7 @@
             </div>
           </div>
         </div>
-        <!-- Carousel controls -->
+        
         <button
           class="carousel-control-prev mr-5"
           type="button"
@@ -324,7 +324,7 @@
     </section>
 <%@ include file="../components/footer.jsp" %>
 
-<!--  -->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();

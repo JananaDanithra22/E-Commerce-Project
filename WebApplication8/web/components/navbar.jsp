@@ -26,7 +26,7 @@
     <div class="container-fluid">
         <!-- Navbar brand -->
         <a class="navbar-brand mx-4" href="#">
-            <img src="./images/naturaLogo.png" height="60" alt="" loading="lazy" />
+            <img src="/images/naturaLogo.png" height="60" alt="" loading="lazy" />
         </a>
 
         <!-- Toggle button -->
@@ -103,7 +103,7 @@
                             // Check if userName is "Guest" or null, show Login; otherwise, show Logout
                             if (username == null || username.equals("Guest")) {
                         %>
-                        <li><a class="dropdown-item" href="/login">Login</a></li>
+                        <li><a class="dropdown-item" href="/pages/login.jsp">Login</a></li>
                             <%
                             } else {
                             %>

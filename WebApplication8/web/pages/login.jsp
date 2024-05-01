@@ -1,43 +1,70 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <title>Natura Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%; /* Ensure the full height of the window */
+        }
+        body {
+            display: flex;
+            align-items: center; /* Align vertically center */
+            justify-content: center; /* Align horizontally center */
+            padding: 10px;
+            background-color: #343a40; /* Dark grey background */
+            color: white; /* Text color set to white */
+        }
+        .login-form {
+            width: 100%;
+            max-width: 330px; /* Maximum width of the form */
+            padding: 15px;
+            margin: auto;
+        }
+        .form-control {
+            position: relative;
+            box-sizing: border-box;
+            height: auto;
+            padding: 10px;
+            font-size: 16px;
+            color: black; /* Resetting the color for form inputs to black */
+        }
+        .form-control:focus {
+            z-index: 2; /* Highlight focus */
+        }
+        .login-button {
+            background-color: #28a745; /* Bootstrap success color */
+            border-color: #28a745; /* Border color same as background */
+        }
+    </style>
 </head>
 <body>
-
-<!-- Include navbar -->
-<%@ include file="../components/navbar.jsp" %>
-
-<!-- Login form -->
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card border-0 p-4" style="background-color: #C3EFC3; border-radius: 20;">
-                <h2 class="text-center mb-4">Login</h2>
-                <form>
-                    <div class="mb-3">
-                        <label for="username" class="form-label">Username</label>
-                        <input type="text" class="form-control" id="username" placeholder="Enter your username">
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-success btn-lg rounded-pill">Login</button>
-                    </div>
-                </form>
-                <!-- Text "Not have an account? Sign Up Here" with a link to Signup page -->
-                <p class="text-center mt-3 mb-0">Not have an account? <a href="/pages/signup.jsp">Sign Up Here</a></p>
-            </div>
+    <%@ include file="./components/navbar.jsp" %>
+    <div class="login-form">
+        <h1 class="h3 mb-3 fw-normal text-center">Login</h1>
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label for="inputEmail" class="visually-hidden">Email address</label>
+            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
         </div>
-    </div>
+        <div class="form-group mt-3">
+            <label for="inputPassword" class="visually-hidden">Password</label>
+            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-lg btn-success btn-block mt-4 login-button" type="submit">Login</button>
+        </div>
+        <!-- Sign up link -->
+        <div class="mt-3 text-center">
+            <p>Don't have an account? <a href="/signup" style="color: white;">Sign up</a></p>
+        </div>
+    </form>
 </div>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
