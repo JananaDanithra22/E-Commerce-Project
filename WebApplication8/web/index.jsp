@@ -20,8 +20,13 @@
     <title>Natura</title>
   </head>
   <body>
+<<<<<<< HEAD
     <div class="container-fluid">
         <%@ include file="./components/navbar.jsp" %>
+=======
+      <%@ include file="../components/navbar.jsp" %>
+    <div class="container-fluid">
+>>>>>>> 1dd55e33e37a71b4ce9460990d1e28196f002935
       <section>
         <div class="row bg-dark">
           <div
@@ -391,4 +396,8 @@
       crossorigin="anonymous"
     ></script>
   </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 1dd55e33e37a71b4ce9460990d1e28196f002935
