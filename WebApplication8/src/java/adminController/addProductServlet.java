@@ -18,3 +18,25 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FilenameUtils;
+
+
+@MultipartConfig
+public class addProductServlet extends HttpServlet {
+    
+    private String uploadDirectory;
+
+    @Override
+    public void init() throws ServletException {
+        uploadDirectory = getServletContext().getInitParameter("UPLOAD_DIRECTORY");
+        if (uploadDirectory == null) {
+            throw new ServletException("Upload directory not set in web.xml.");
+        }
+    }
+    
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/pages/admin/add_product.jsp");
+        dispatcher.include(request, response);
+    }
