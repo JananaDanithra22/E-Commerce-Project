@@ -17,3 +17,26 @@ public class adminUserFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
         
     }
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
+        HttpServletRequest httpRequest = (HttpServletRequest) request;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+
+        
+        String uri = httpRequest.getRequestURI();
+        if (uri.endsWith("/pages/admin/users.jsp")) {
+            httpResponse.sendRedirect("/admin/users");
+            return;
+        }
+
+        
+        chain.doFilter(request, response);
+    }
+
+    @Override
+    public void destroy() {
+        
+    }
+}
